@@ -1,0 +1,7 @@
+
+
+<button class="btn btn-success" [disabled]="!canClick" (click)="onParagraphChange()">Test</button>
+
+<input type="text" value="" (input)="onTextBoxText($event)" (keydown.enter)="onEnterKey($event)">
+
+<p>{{ paragraphText }}</p>
