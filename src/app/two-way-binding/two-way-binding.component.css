@@ -1,0 +1,12 @@
+input{
+    border: solid 1px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+}
